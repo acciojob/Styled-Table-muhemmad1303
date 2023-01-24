@@ -1,1 +1,21 @@
 /* your code */
+table { border-collapse: collapse; 
+    border-radius: 30px; border-style: hidden; 
+    box-shadow: 0 0 0 1px #666; 
+    }
+ td,th{
+    border:1px solid #ccc;
+ }
+ 
+thead th{
+    background-color:blueviolet !important;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: beige;
+    color: black;
+}
+tr:nth-child(even){
+    background-color: gray;
+    color: black;
+}
